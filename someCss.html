@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> someCss</title>
+    </head>
+    <link rel="stylesheet" href="anExternal.css">
+    <style>
+        .container{
+            position:relative;
+            text-align:center;
+            color:black;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            }
+    </style>
+    <body>
+        <h1> Newbie level </h1>
+
+        <h2> Two paragraphs with different fonts </h2>
+        <p style="font-family:verdana;"> I like study GRE. </p>
+        <p style="font-family:courier;"> However I do not like memorize vocabularies. </p>
+
+        <h2>Resized picture</h2>
+        <img src="https://cdn.designbump.com/wp-content/uploads/2014/10/mystical-bridges-003.jpg" title= "beautiful view" style="width:50px; height:50px; margin:5px">
+        <img src="https://cdn.designbump.com/wp-content/uploads/2014/10/mystical-bridges-002.jpg" title="beautiful view" style="width:50px; height:50px; margin:5px">
+
+        <h2> unique Css command </h2>
+        <p style=" border: 2px solid powderblue; background-color: red;"> text with border and background color! </p>
+
+        <h1> Apprentice level </h1>
+        <h2> text centered on a photo</h2>
+        <div class="container">
+            <img src="https://www.juxtapoz.com/media/k2/galleries/49423/Artwork_Image_1283478934.jpg" alt="funny picture" style="width:50%; height:10%">
+            <div class="centered"> Centered text! </div>
+        </div>
+        <h2> A photo with 20 pixel margins on each side</h2>
+        <img src="https://www.juxtapoz.com/media/k2/galleries/49423/Artwork_Image_1285982515.jpg" alt="funny picture" style="margin:20px; height:100px; width:100px;">
+        <h2> text with a border using dotted lines</h2>
+        <p style='border-style:dotted'> A dotted border </p>
+
+        <h1> Master level</h1>
+        <h2> a float image </h2>
+        <p class="ext"> <img class="ext1" src="https://www.juxtapoz.com/media/k2/galleries/49423/Artwork_Image_1285982515.jpg" alt="funny picture" style="margin:20px; height:10%; width:10%;">
+            the image will float to the right in the text, and the text in the paragraph will wrap around the image. </p>
+
+            <p id="rcorners1"> Rounded corners hhh </p>
+    </body>
+    </html>
